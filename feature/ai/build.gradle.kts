@@ -54,7 +54,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.lottie.compose)
+    implementation("com.airbnb.android:lottie-compose:6.5.2")
 
     // Navigation
     implementation(libs.androidx.navigation.compose)
